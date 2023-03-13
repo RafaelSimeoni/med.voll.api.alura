@@ -1,6 +1,5 @@
-package med.voll.api.medico;
+package med.voll.api.domain.medico.form;
 
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 public record FormAtualizarEndereco(

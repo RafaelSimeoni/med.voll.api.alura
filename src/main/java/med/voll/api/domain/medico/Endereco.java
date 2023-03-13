@@ -1,9 +1,11 @@
-package med.voll.api.medico;
+package med.voll.api.domain.medico;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import med.voll.api.domain.medico.form.FormAtualizarEndereco;
+import med.voll.api.domain.medico.form.FormCadastroEndereco;
 
 @Getter
 @NoArgsConstructor

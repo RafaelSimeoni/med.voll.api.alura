@@ -1,10 +1,12 @@
-package med.voll.api.medico;
+package med.voll.api.domain.medico;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import med.voll.api.domain.medico.form.FormAtualizarMedico;
+import med.voll.api.domain.medico.form.FormCadastroMedico;
 
 @Getter
 @NoArgsConstructor
