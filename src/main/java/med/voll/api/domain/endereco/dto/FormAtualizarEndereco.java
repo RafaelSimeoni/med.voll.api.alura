@@ -1,4 +1,4 @@
-package med.voll.api.domain.medico.form;
+package med.voll.api.domain.endereco.dto;
 
 import jakarta.validation.constraints.Pattern;
 

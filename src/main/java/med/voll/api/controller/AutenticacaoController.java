@@ -2,7 +2,7 @@ package med.voll.api.controller;
 
 import jakarta.validation.Valid;
 import med.voll.api.domain.usuario.Usuario;
-import med.voll.api.domain.usuario.repository.form.FormAutenticacao;
+import med.voll.api.domain.usuario.dto.FormAutenticacao;
 import med.voll.api.infra.security.TokenJWTDTO;
 import med.voll.api.infra.security.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;

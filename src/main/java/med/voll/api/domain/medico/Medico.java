@@ -5,8 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.domain.medico.form.FormAtualizarMedico;
-import med.voll.api.domain.medico.form.FormCadastroMedico;
+import med.voll.api.domain.endereco.Endereco;
+import med.voll.api.domain.medico.dto.FormAtualizarMedico;
+import med.voll.api.domain.medico.dto.FormCadastroMedico;
 
 @Getter
 @NoArgsConstructor

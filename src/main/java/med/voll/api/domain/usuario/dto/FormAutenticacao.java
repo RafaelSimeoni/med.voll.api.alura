@@ -1,4 +1,4 @@
-package med.voll.api.domain.usuario.repository.form;
+package med.voll.api.domain.usuario.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

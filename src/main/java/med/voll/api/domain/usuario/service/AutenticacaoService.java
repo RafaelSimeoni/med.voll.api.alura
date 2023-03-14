@@ -1,4 +1,4 @@
-package med.voll.api.domain.usuario;
+package med.voll.api.domain.usuario.service;
 
 import med.voll.api.domain.usuario.repository.UsuarioRepository;
 import org.springframework.security.core.userdetails.UserDetails;
