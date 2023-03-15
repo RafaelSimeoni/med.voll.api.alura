@@ -5,7 +5,6 @@ import med.voll.api.domain.usuario.Usuario;
 import med.voll.api.domain.usuario.dto.FormAutenticacao;
 import med.voll.api.infra.security.TokenJWTDTO;
 import med.voll.api.infra.security.TokenService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -22,7 +21,6 @@ public class AutenticacaoController {
 
     private final TokenService tokenService;
 
-    @Autowired
     public AutenticacaoController(AuthenticationManager authenticationManager, TokenService tokenService) {
         this.authenticationManager = authenticationManager;
         this.tokenService = tokenService;

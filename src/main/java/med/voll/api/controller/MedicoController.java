@@ -8,7 +8,6 @@ import med.voll.api.domain.medico.dto.MedicoListagemDTO;
 import med.voll.api.domain.medico.dto.FormAtualizarMedico;
 import med.voll.api.domain.medico.dto.FormCadastroMedico;
 import med.voll.api.domain.medico.repository.MedicoRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -22,7 +21,6 @@ public class MedicoController {
 
     private final MedicoRepository medicoRepository;
 
-    @Autowired
     public MedicoController(MedicoRepository medicoRepository) {
         this.medicoRepository = medicoRepository;
     }

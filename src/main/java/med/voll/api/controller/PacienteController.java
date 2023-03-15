@@ -7,7 +7,6 @@ import med.voll.api.domain.paciente.dto.FormCadastroPaciente;
 import med.voll.api.domain.paciente.dto.PacienteDetalhamentoDTO;
 import med.voll.api.domain.paciente.dto.PacienteListagemDTO;
 import med.voll.api.domain.paciente.repository.PacienteRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -22,7 +21,6 @@ public class PacienteController {
 
     private final PacienteRepository repository;
 
-    @Autowired
     public PacienteController(PacienteRepository repository) {
         this.repository = repository;
     }
